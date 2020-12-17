@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./dist/css/style.css">
-    <title>PHP CD</title>
+    <title>PHP AJAX DISCHI</title>
 </head>
 
 <body>

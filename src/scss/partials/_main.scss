@@ -6,6 +6,7 @@ background-color: $mainDarkBrown;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        padding: 50px;
 
         .cd {
             flex-basis: 350px;
@@ -13,7 +14,7 @@ background-color: $mainDarkBrown;
             padding: 20px;
             text-align: center;
             list-style: none;
-            border: 1px solid $textSand;
+            border: 3px solid $textSand;
             color: $textSand;
 
             .cd-image img {

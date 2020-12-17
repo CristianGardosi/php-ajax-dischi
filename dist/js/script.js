@@ -14445,8 +14445,8 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Applications/MAMP/htdocs/ php-ajax-dischi/src/js/script.js */"./src/js/script.js");
-module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/ php-ajax-dischi/src/scss/style.scss */"./src/scss/style.scss");
+__webpack_require__(/*! /Applications/MAMP/htdocs/php-ajax-dischi/src/js/script.js */"./src/js/script.js");
+module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/php-ajax-dischi/src/scss/style.scss */"./src/scss/style.scss");
 
 
 /***/ })

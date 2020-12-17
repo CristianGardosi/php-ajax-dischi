@@ -6114,7 +6114,7 @@ body {
   color: #fff;
 }
 .header .logo img {
-  width: 100px;
+  width: 130px;
 }
 .header .title h1 {
   font-family: "Mountains of Christmas", cursive;
@@ -6129,6 +6129,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 50px;
 }
 .main .cd-list .cd {
   flex-basis: 350px;
@@ -6136,7 +6137,7 @@ body {
   padding: 20px;
   text-align: center;
   list-style: none;
-  border: 1px solid #dce0d9;
+  border: 3px solid #dce0d9;
   color: #dce0d9;
 }
 .main .cd-list .cd .cd-image img {
