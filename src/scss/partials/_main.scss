@@ -1,0 +1,30 @@
+.main {
+min-height: 80vh;
+background-color: $mainDarkBrown;
+
+    .cd-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .cd {
+            flex-basis: 350px;
+            margin: 30px;
+            padding: 20px;
+            text-align: center;
+            list-style: none;
+            border: 1px solid $textSand;
+            color: $textSand;
+
+            .cd-image img {
+                width: 100%;
+                padding: 20px;
+            }
+
+            .cd-info h3 {
+                font-size: $h3;
+                padding: 20px;
+            }
+        }
+    }
+}

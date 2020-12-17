@@ -1,0 +1,55 @@
+// *TYPHOGRAPHY* \\
+    $h3: 25px;
+
+// *Margin & padding* \\
+
+
+// *FLEX MIXIN* \\
+@mixin flexRow($type) {
+    display: flex;
+
+    @if $type == 'all-centered' {
+        justify-content: center;
+        align-items: center;
+    }
+
+    @else if $type == 'start' {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    @else if $type == 'end' {
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    @else if $type == 'space-between' {
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@mixin flexCol($type) {
+    display: flex;
+    flex-direction: column;
+
+    @if $type == 'all-centered' {
+        justify-content: center;
+        align-items: center;
+    }
+
+    @else if $type == 'start' {
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    @else if $type == 'end' {
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    @else if $type == 'space-between' {
+        justify-content: center;
+        align-items: space-between;
+    }
+}

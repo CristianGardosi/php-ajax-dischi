@@ -1,0 +1,17 @@
+.header {
+    @include flexRow('space-between');
+    height: 20vh;
+    padding: 0 50px;
+    background-color: $headerMaroon;
+    color: $white;
+
+    .logo img {
+        width: 100px;
+    }
+
+    .title h1 {
+        font-family: 'Mountains of Christmas', cursive;
+        font-size: 70px;
+    }
+    
+}

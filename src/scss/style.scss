@@ -1,0 +1,22 @@
+// !Import FONT AWESOME general
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+// Categorie di icon utilizzate nel sito (far = regular, fas = solid ecc.)
+@import '~@fortawesome/fontawesome-free/scss/solid';
+
+
+// ?Import PARTIALS
+// !COMMONS
+@import "partials/common.scss";
+
+// ! UTILITIES
+@import "partials/utilities.scss";
+
+// ! VARIABLES
+@import "partials/variables.scss";
+
+// *LAYOUT* \\
+// !HEADER
+@import "partials/header.scss";
+
+// !MAIN
+@import "partials/main.scss";
