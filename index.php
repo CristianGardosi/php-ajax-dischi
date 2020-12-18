@@ -1,8 +1,3 @@
-<!-- Importazione database dischi e relative informazioni -->
-<?php
-    include __DIR__ . '/partials-php/database.php';
-?>
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -35,34 +30,28 @@
 
         <!-- MAIN -->
         <main class="main">
-        <ul class="cd-list">
-                <?php foreach ($database as $cd) {  ?>
-                    
-                        <li class="cd">
-                        
-                            <div class="cd-info">
-                                <h3 class="title-and-year">
-                                    <?php echo $cd['title'] ?>
-                                </h3>
-                                <h4 class="title-and-year">
-                                    <?php echo $cd['author'] ?>
-                                </h4>
-                                    <div class="cd-image">
-                                        <img src="<?php echo $cd['poster'] ?>" alt="">
-                                    </div>
-                                <h3 class="title-and-year">
-                                    <?php echo $cd['year'] ?>
-                                </h3>
-                                <h4 class="title-and-year">
-                                    <?php echo $cd['genre'] ?>
-                                </h4>
-                            </div>
-                        </li>
-                   
-                <?php } ?>      
+            <ul class="cd-list">
+                <li v-for="cdinfo in cd" class="cd">     
+                    <div class="cd-info">
+                        <h3 class="title-and-year">
+                            {{ cdinfo.title }}
+                        </h3>
+                        <h4 class="title-and-year">
+                            {{ cdinfo.author }}
+                        </h4>
+                        <div class="cd-image">
+                            <img v-bind:src="cdinfo.poster" alt="poster">
+                        </div>
+                        <h3 class="title-and-year">
+                            {{ cdinfo.year }}
+                        </h3>
+                        <h4 class="title-and-year">
+                            {{ cdinfo.genre }}
+                        </h4>
+                    </div>
+                </li>        
             </ul> 
         </main>
-
 
     </div>
 

@@ -14422,7 +14422,23 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
-  el: '#app'
+  el: '#app',
+  data: {
+    cd: []
+  },
+  // Ottenimento dati al caricamento di pagina
+  created: function created() {
+    var _this = this;
+
+    var dataUrl = window.location.href + 'script/json.php';
+    axios__WEBPACK_IMPORTED_MODULE_1___default.a.get(dataUrl).then(function (response) {
+      // handle success
+      _this.cd = response.data;
+    })["catch"](function (error) {
+      // handle error
+      console.log(error);
+    });
+  }
 });
 
 /***/ }),
